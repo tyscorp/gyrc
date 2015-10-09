@@ -1,0 +1,2 @@
+# gyrc
+GyRC — IRC Client

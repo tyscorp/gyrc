@@ -1,0 +1,50 @@
+{
+  "name": "gyrc",
+  "version": "0.0.1",
+  "description": "GyRC — IRC Client",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tyscorp/gyrc.git"
+  },
+  "keywords": [
+    "irc",
+    "react",
+    "redux",
+    "electron"
+  ],
+  "author": "Tyson Cleary <amec@tyscorp.net> (https://github.com/tyscorp)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tyscorp/gyrc/issues"
+  },
+  "homepage": "https://github.com/tyscorp/gyrc#readme",
+  "dependencies": {
+    "babel": "^5.8.23",
+    "bluebird": "^2.10.2",
+    "cssnext": "^1.8.4",
+    "immutable": "^3.7.5",
+    "irc": "^0.4.0",
+    "lodash": "^3.10.1",
+    "npm": "^3.3.8",
+    "react": "^0.14.0",
+    "react-dom": "^0.14.0",
+    "react-redux": "^3.1.0",
+    "redux": "^3.0.2",
+    "redux-devtools": "^3.0.0-beta-3",
+    "redux-devtools-dock-monitor": "^1.0.0-beta-3",
+    "redux-devtools-log-monitor": "^1.0.0-beta-3",
+    "redux-promise": "^0.5.0",
+    "redux-thunk": "^1.0.0",
+    "reselect": "^2.0.0",
+    "systemjs": "^0.19.4",
+    "transit-js": "^0.8.837"
+  },
+  "devDependencies": {
+    "electron-prebuilt": "^0.34.0"
+  }
+}
